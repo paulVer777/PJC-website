@@ -3,8 +3,6 @@
 
   text-align: center;
   color:$color-text-white;
-  font-family:$font-default;
-
 
   &--main{
     display: block;
@@ -28,29 +26,21 @@
   margin-bottom: 2.5rem;
   letter-spacing: 2px;
   margin-top: 6rem;
-  font-family: $font-default;
 
   &::after{
     content: "";
     border: 3px solid $color-text-awesome;
     width: 120px;
     margin-left: 1rem;
-
   }
-
-
-
 }
-
 .heading-tertiary{
   font-size: 2.3rem;
   font-weight: 400;
   margin-bottom: 3rem;
-  font-family: $font-default
-}
 
+}
 .footer__info-box__text{
 color: $color-text-white;
-font-family: $font-default;
 font-size: 1.8rem;
 }

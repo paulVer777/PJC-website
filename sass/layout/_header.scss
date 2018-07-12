@@ -6,19 +6,14 @@
   url("../../img/fiber2.jpg");
   background-position: center;
   background-size: cover;
-  //clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative;
-
   &__nav {
     z-index: 1;
-    background-image: linear-gradient(to right bottom,
+    background-image: linear-gradient(to left bottom,
             rgba($color-primary, .8),
             rgba($color-secondary, .8));
-
     &-link {
-
       &:link, &:visited {
-
         font-size: 1.4rem;
         font-family: $font-default;
         letter-spacing: 1px;
@@ -28,16 +23,13 @@
       &:hover {
         border-bottom: 1px solid $color-text-white;
       }
-
     }
-
   }
-
   &__text-box {
     position: absolute;
     top: 25%;
     left: 50%;
-    transform: translateX(-55%);
+    transform: translateX(-50%);
     text-align: center;
   }
 }
