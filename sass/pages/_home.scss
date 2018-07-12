@@ -1,0 +1,60 @@
+
+.img-box {
+  padding: 5rem;
+
+  &__photo {
+    border-radius: 3px;
+  }
+}
+
+.section {
+
+  &__description {
+    font-size: 1.5rem;
+
+    padding: 3rem;
+    font-family: $font-default;
+
+    &--fiber {
+      margin-top: 5%;
+
+    }
+    &--finishing {
+      margin-top: 16%;
+
+    }
+
+    &__list {
+      font-size: 1.7rem;
+
+      &--finishing-works {
+
+      }
+
+    }
+
+  }
+  &--contact__icon-box {
+    margin-top: 5rem;
+    font-size: 5rem;
+  }
+
+  &--contact{
+    margin-bottom: 10rem;
+  }
+
+
+}
+
+
+
+
+
+
+
+.paragraph {
+  font-size: 1.6rem;
+}
+
+
+

@@ -1,0 +1,44 @@
+.header {
+  height: 90vh;
+  background-image: linear-gradient(to right bottom,
+          rgba($color-primary, .8),
+          rgba($color-secondary, .8)),
+  url("../../img/fiber.jpg");
+  background-position: center;
+  background-size: cover;
+  //clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative;
+
+  &__nav {
+    z-index: 1;
+    background-image: linear-gradient(to right bottom,
+            rgba($color-primary, .8),
+            rgba($color-secondary, .8));
+
+    &-link {
+
+      &:link, &:visited {
+
+        font-size: 1.4rem;
+        font-family: $font-default;
+        letter-spacing: 1px;
+        color: $color-text-white;
+      }
+
+      &:hover {
+        border-bottom: 1px solid $color-text-white;
+      }
+
+    }
+
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-55%);
+    text-align: center;
+  }
+}
+
