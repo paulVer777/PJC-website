@@ -4,12 +4,12 @@
   background-image: linear-gradient(to right bottom,
           rgba($color-primary, .8),
           rgba($color-secondary, .8)),
-  url("../../img/fiber2.jpg");
+  url("/img/fiber2.jpg");
   background-position: center;
   background-size: cover;
 
   &__info-box{
     position: relative;
-    top:85%;
+    top:80%;
   }
 }
